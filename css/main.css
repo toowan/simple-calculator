@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Unica+One|Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Unica+One|Roboto:100,400');
 
 *{
 	margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: white;
+	background-color: #fbffed;
 	color: #3F3F3F;
 	font-size: 16px;
 	font-family: 'Unica One', cursive;
@@ -16,6 +16,7 @@ body {
 
 a {
 	color: #B8C480;
+	font-weight: 400;
 }
 
 a:hover {
@@ -94,16 +95,21 @@ button {
 }
 
 button:hover, #equal:hover {
-	background-color: #eaf9a2;
+	background-color: #B8C480;
 	-webkit-transition-duration: 0.6s;
 }
 
 #ac:hover {
-	background-color: #C9C9C9;
+	background-color: #B8C480;
 	-webkit-transition-duration: 0.6s;
 }
 
-button:active, #ac:active, #equal:active {
+/*button:active, #equal:active {
+	background-color: #B8C480; 
+	-webkit-transition-duration: .8s;
+}
+*/
+#ac:active {
 	background-color: #B8C480; 
 	-webkit-transition-duration: .8s;
 }
